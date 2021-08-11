@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "colibridigitalstatebucket"
+    bucket = "<changeme>"
     key    = "test/terraform.tfstate"
   }
 }
