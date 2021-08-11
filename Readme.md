@@ -38,7 +38,7 @@ The project directory will contain:
     - $ export AWS_ACCESS_KEY_ID="anaccesskey"
     - $ export AWS_SECRET_ACCESS_KEY="asecretkey"
     - $ export AWS_DEFAULT_REGION="eu-west-2"
-- Create a Bootstrap S3 bucket from the S3 Console -- this will hold your Remote State File
+- Create a Bootstrap S3 bucket from the AWS Console -- this will hold your Remote State File
 - Go to Folder `backends` and Change the Bucket Name to this bucket you just created
 - Set your `environment` (dev,test,prod) var in the Makefile -- Only works for dev as only those .tfvars are set
 - Check the `<env>.tfvars` file and change var names if required
