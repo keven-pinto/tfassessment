@@ -11,7 +11,7 @@ This Terraform repository does the following:
 - Data from iris.csv can now be Queried from Athena 
 
 # Structure
-`
+```
 ├── colibri/
  ├── backends
  ├── csv
@@ -23,7 +23,7 @@ This Terraform repository does the following:
  ├── provider.tf
  ├── tf_util.sh
  ├── variables.tf
- `  
+ ```  
 The project directory will contain:
 - backends/, Holds the State Bucket 
 - csv/, a directory containing the iris.csv
