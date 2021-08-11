@@ -47,3 +47,5 @@ The project directory will contain:
 - `make plan` - Perform a Terraform plan to see what infrastructure would be created if you were to run make apply
 - `make apply` - Perform a Terraform apply to deploy your infrastructure
 - `make destroy` - Perform a Terraform destroy to tear down your deployed infrastructure
+
+Note : Please do not run terraform plan or terraform apply directly as this will fail due to the vars not being present
