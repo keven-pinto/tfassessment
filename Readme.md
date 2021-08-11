@@ -13,11 +13,11 @@ This Terraform repository does the following:
 # Structure
 ```
 ├──tfassessment/
-     ├── backends
-     ├── csv
-     ├── modules
-     ├── policies 
-     ├── tfvars
+     ├── backends/
+     ├── csv/
+     ├── modules/
+     ├── policies/ 
+     ├── tfvars/
      ├── main.tf
      ├── Makefile
      ├── provider.tf
