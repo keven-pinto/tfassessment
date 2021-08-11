@@ -1,0 +1,20 @@
+{
+  "Id": "Policy1628681609809",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1628681607882",
+      "Action": [
+        "s3:PutObject"
+      ],
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::<bucket_name>/*",
+      "Condition": {
+        "StringNotEquals": {
+          "s3:x-amz-server-side-encryption-aws-kms-key-id": "<kms_key_id>"
+        }
+      },
+      "Principal": "*"
+    }
+  ]
+}
