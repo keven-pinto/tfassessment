@@ -48,4 +48,4 @@ The project directory will contain:
 - `make apply` - Perform a Terraform apply to deploy your infrastructure
 - `make destroy` - Perform a Terraform destroy to tear down your deployed infrastructure
 
-Note : Please do not run terraform plan or terraform apply directly as this will fail due to the vars not being present
+Note : Please do not run terraform plan or terraform apply directly as this will fail due to the vars not being present in the root folder
