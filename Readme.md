@@ -12,7 +12,7 @@ This Terraform repository does the following:
 
 # Structure
 ```
-├── colibri/
+├── tfassessment/
  ├── backends
  ├── csv
  ├── modules
