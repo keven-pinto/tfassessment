@@ -12,17 +12,17 @@ This Terraform repository does the following:
 
 # Structure
 ```
-├── tfassessment/
- ├── backends
- ├── csv
- ├── modules
- ├── policies 
- ├── tfvars
- ├── main.tf
- ├── Makefile
- ├── provider.tf
- ├── tf_util.sh
- ├── variables.tf
+├──tfassessment/
+     ├── backends
+     ├── csv
+     ├── modules
+     ├── policies 
+     ├── tfvars
+     ├── main.tf
+     ├── Makefile
+     ├── provider.tf
+     ├── tf_util.sh
+     ├── variables.tf
  ```  
 The project directory will contain:
 - backends/, Holds the State Bucket 
