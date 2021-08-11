@@ -2,11 +2,11 @@
 This Terraform repository does the following:
 - Create a KMS Key and an alias for the same
 - Create an S3 bucket Policy that denies unencrypted data from being uploaded
-- Creates an S3 Bucket (iris-data-bucket-<randomhash>) for Uploads with Server Side Encryption using the KMS Key created above 
+- Creates an S3 Bucket (iris-data-bucket-_randomhash_) for Uploads with Server Side Encryption using the KMS Key created above 
 - Attaches the S3 bucket policy created above to the Upload S3 Bucket
 - Creates an Athena DB (irisdb) that Points to the Upload S3 Bucket
 - Creates a External Table(iris) in Glue under this Athena Db
-- Creates an Athena Workgroup with outputs being sent to an S3 bucket (athena-outputs-<random hash>)
+- Creates an Athena Workgroup with outputs being sent to an S3 bucket (athena-outputs-_randomhash_)
 - Uploads the iris.csv to the Upload Bucket
 - Data from iris.csv can now be Queried from Athena 
 
