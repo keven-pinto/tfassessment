@@ -41,7 +41,7 @@ The project directory will contain:
 - Create a Bootstrap S3 bucket from the AWS Console -- this will hold your Remote State File
 - Go to Folder `backends` and Change the Bucket Name to this bucket you just created
 - Set your `environment` (dev,test,prod) var in the Makefile -- Only works for dev as only those .tfvars are set
-- Check the `<env>.tfvars` file and change var names if required
+- Check the `<env>.tfvars` file and change var names (Optional)
 
 # Commands
 - `make plan` - Perform a Terraform plan to see what infrastructure would be created if you were to run make apply
