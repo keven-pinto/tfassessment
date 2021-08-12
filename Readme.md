@@ -27,7 +27,7 @@ This Terraform repository does the following:
 The project directory will contain:
 - backends/, Holds the State Bucket 
 - csv/, a directory containing the iris.csv
-- modules/, directory to hold terraform modules
+- modules/, NA -- gitbasedmodule branch pulls these from a separate Git Repo
 - policies/, directory to hold S3 bucket policies
 - tfvars/ directory that will hold dev,test and prod env variables that get fed to the TF
 - Makefile - File that will drive the deployment
