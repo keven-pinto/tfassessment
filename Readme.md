@@ -44,6 +44,7 @@ The project directory will contain:
 - Check the `<env>.tfvars` file and change var names (Optional)
 
 # Commands
+- `make init` - Perform a Terraform init
 - `make plan` - Perform a Terraform plan to see what infrastructure would be created if you were to run make apply
 - `make apply` - Perform a Terraform apply to deploy your infrastructure
 - `make destroy` - Perform a Terraform destroy to tear down your deployed infrastructure

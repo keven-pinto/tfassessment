@@ -1,5 +1,5 @@
 resource "aws_athena_workgroup" "example" {
-  name = var.workgroup_name
+  name          = var.workgroup_name
   force_destroy = true
 
   configuration {
